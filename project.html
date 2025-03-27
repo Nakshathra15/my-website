@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nakshathra</title>
+        <link rel="stylesheet" href="style1.css">
+        <style>
+            .caption{
+                color: white;
+                float: right;
+                font-size: 120px;
+                margin-right: 70px;
+                margin-top: 150px;
+            }
+            .table{
+                margin-top: 150px;
+                margin-left: 60px;
+                color: black;
+                float: left;
+                text-align: center;
+                font-size: 30px;
+                border: 1px solid white;
+                width: 60%;
+                border-color:black;
+                overflow: hidden;
+                border-collapse: collapse;
+                box-shadow: 0 0 10px white;
+                margin-right: 20px;
+            }
+            th, td{
+                padding:12px;
+                border: 1px solid;
+                border-color:black;
+                background-color:white;
+            }
+            tr:hover{
+                background-color: #f1f1f1;
+            }
+            .status-completed{
+                color: green;
+                font-weight: bold;
+            }
+            .status-ongoing{
+                color: orange;
+                font-weight: bold;
+            }
+            .status-pending{
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="contact.html" target="_self">Contact Me</a></li>
+                <li><a href="resume.html" target="_self">Resume</a></li>
+                <li><a href="project.html" target="_self">Projects</a></li>
+                <li><a href="about.html" target="_self">About Me</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+        <div class="caption">
+            <caption>My<br>Recent<br>Projects</caption>
+        </div>
+        <div class="table">
+            <table>
+                <div class="heading">
+                    <tr>
+                        <th style="font-size: 50px;">Project Name</th>
+                        <th style="font-size: 50px;">Description</th>
+                        <th style="font-size: 50px;">Status</th>
+                    </tr>
+                </div>
+                <tr>
+                    <td>To-do-list</td>
+                    <td>A simple web app to add, delete, and track tasks.</td>
+                    <td class="status-completed">Completed</td>
+                </tr>
+                <tr>
+                    <td>My Portfolio Website</td>
+                    <td>A personal website showcasing my projects and skills.</td>
+                    <td class="status-ongoing">On-going</td>
+                </tr>
+                <tr>
+                    <td>Simple Calculator</td>
+                    <td>A basic calculator using html and css</td>
+                    <td class="status-pending">Pending</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

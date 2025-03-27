@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color:rgba(90, 86, 86, 0.626);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1px;
+}
+nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+    overflow:auto;
+}
+nav ul li{
+    list-style:none;
+    float:right;
+    margin: 9px 10px;
+    padding:3px 5px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    padding:5px;
+    margin:7px;
+}
+nav ul li a:hover{
+    background-color:black;
+    border-radius: 5px;
+}
+.my{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 50px;
+    margin-left: 600px;
+    margin-top: 75px;
+    font-size: 150px;
+    color: white;
+}
+.me{
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 75px;
+    font-size: 30px;
+    color: white;
+}
+.image{
+    float:left;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.about{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 600px;
+    font-size: 150px;
+}
+.content{
+    font-size: 30px;
+}
+.coder{
+    float: right;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.contact{
+    float: right;
+    font-size: 160px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+.contact-container{
+    background-color: white;
+    padding: 20px;
+    border-radius:8px;
+    box-shadow: 0 0 5px white;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+input,textarea{
+    padding:10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+textarea{
+    height: 50px;
+    resize: none;
+}
+button{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+
